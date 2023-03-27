@@ -16,8 +16,36 @@ p {
 .container {
     width: 1400px;
     margin: 0 auto;
-    padding: 0 125px;
+    padding: 50px 125px;
     background-color: lightblue;
+}
+
+.inner {
+    padding: 25px;
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: orange;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: solid 1px green;
+}
+
+.box-xxl {
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    border: solid 1px green;
 }
 
 .img-front {

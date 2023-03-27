@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>images</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <h2>Chapter 1 - Image Front Flex (960/576)</h2>
+        <div class="img-front">
+            <picture>
+                <source media="(max-width: 576px)" srcset="resources/Intro-s.jpg">
+                <source media="(max-width: 960px)" srcset="resources/Intro-m.jpg">
+                <img src="resources/Intro.jpg" alt="Image placeholder">
+            </picture>
+            <p class="img-txt">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti doloribus unde atque ad?
+            </p>    
+        </div>    
+
+        <h2>Chapter 2 - Background Image.</h2>
+        <div class="img-back" style="background-image: url('resources/Intro.jpg');">
+            <p class="img-txt">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti doloribus unde atque ad?
+            </p>    
+    </div>
+</main>
+</body>
+</html>
